@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Gill Sans Bold';
+    src: url('GillSans-Bold.eot');
+    src: url('GillSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('GillSans-Bold.woff') format('woff'),
+    url('GillSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('GillSans-Light.eot');
+    src: url('GillSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('GillSans-Light.woff') format('woff'),
+    url('GillSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+h4 {
+    font-family: 'Gill Sans' !important;
+    margin-top: -11px !important;
+    font-size: 15px !important;
+}
+
+h5 {
+    font-family: 'Gill Sans Bold' !important;
+    font-size: 20px !important;
+}
+
+
+.wrapper {
+    background: url('../images/background.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-wrapper {
+    background: url('../images/text-fade.png') center no-repeat;
+    background-size: 425px 390px;
+    color: white;
+    padding: 25vh 0;
+}
+
+svg {
+    height: 50px;
+    stroke: white;
+    fill: white;
+}
+
+
+@media only screen and (min-width: 768px) {
+    // .wrapper {
+        // background-image: url('../images/tablet/background.png') center no-repeat;
+        // background-size: cover;
+    // }
+    .text-wrapper {
+        background-size: 700px 630px;
+        padding: 20% 0;
+    }
+    svg {
+        height: 85px;
+    }
+    h4 {
+        margin-top: -15px !important;
+        font-size: 25px !important;
+    }
+
+    h5 {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    // .wrapper {
+        // background-image: url('../images/desktop/background.png') center no-repeat;
+        // background-size: cover;
+    // }
+
+    .text-wrapper {
+        padding: 15% 0;
+    }
+    svg {
+        height: 100px;
+    }
+
+    h4 {
+        font-size: 30px !important;
+    }
+
+    h5 {
+        font-size: 25px !important;
+    }
+}
+ 
+@media only screen and (min-width: 1200px) {
+    // .wrapper {
+        // background-image: url('../images/hd/background.png') center no-repeat;
+        // background-size: cover;
+    // }
+
+}
